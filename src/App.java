@@ -72,7 +72,6 @@ public class App extends JFrame implements ActionListener {
 
         bCalcular = new JButton("Calcular");
         bCalcular.addActionListener(this);
-        ;
         painel.add(bCalcular);
 
         bLimpar = new JButton("Limpar");
