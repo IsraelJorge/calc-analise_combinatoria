@@ -19,13 +19,13 @@ public class App extends JFrame implements ActionListener {
 
     public App() {
         setLayout(new FlowLayout());
-        setSize(600, 500);
+        setSize(500, 500);
         setTitle("Análise Combinatória");
         setLocationRelativeTo(null); //Centraliza a janela no meio da tela
         setVisible(true);
 
         JPanel painel = new JPanel();
-        painel.setPreferredSize(new Dimension(500, 500));
+        painel.setPreferredSize(new Dimension(475, 500));
         add(painel);
 
         lElementos = new JLabel("Digite o número de elementos do conjunto : n =");
