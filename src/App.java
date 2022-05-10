@@ -12,12 +12,11 @@ public class App extends JFrame implements ActionListener {
     JTextField tfElementos, tfAgrupamentos, tfRes;
     JButton bCalcular, bLimpar, bSair;
     JRadioButton rbPermutacao, rbArranjo, rbCombinacao;
-    ButtonGroup buttonGroup;
-    JCheckBox cbListar;
-    JTextArea taListar;
-    Formulas formula = new Formulas();
+    ButtonGroup buttonGroup; //para tornar todas as butoon radios do mesmo grupo
+    JTextArea taListar; // area onde vai aperecer os resultados
+    Formulas formula = new Formulas(); // instanciado a classe da formulas
 
-    public App() {
+    public App() { // metodo construtor
         setLayout(new FlowLayout());
         setSize(500, 500);
         setTitle("Análise Combinatória");
